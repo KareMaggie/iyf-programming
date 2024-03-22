@@ -32,6 +32,9 @@ h1{
 .navbar li{
     float: left;
 }
+p{
+    background-color: brown;
+} 
 footer{
     text-align: center;
     background-color: blueviolet;
