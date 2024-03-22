@@ -67,4 +67,14 @@ footer{
     text-align: center;
     background-color: blueviolet;
 }
+@media screen and (min-width: 480px){
+    body{
+        background-color: blue;
+    }
+}
+@media screen and(min-width:170px){
+    head{
+        background-color: aquamarine;
+    }
+}
 
