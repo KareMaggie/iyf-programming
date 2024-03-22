@@ -6,11 +6,6 @@ body{
         padding: 0px;
         margin: 0px;
 }
-
-
-
-
-
 header{
     text-align: center;
 }
@@ -37,3 +32,8 @@ h1{
 .navbar li{
     float: left;
 }
+footer{
+    text-align: center;
+    background-color: blueviolet;
+}
+
