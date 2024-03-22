@@ -5,6 +5,7 @@ body{
         height: 100vh;
         padding: 0px;
         margin: 0px;
+
 }
 header{
     text-align: center;
@@ -34,9 +35,33 @@ h1{
 }
 p{
     background-color: brown;
-} 
-
-
+    width: fit-content;
+}    
+.container{
+    display: flex;
+}
+.main-content{
+    flex: 1;
+}
+.aside{
+    width: 250px;
+    max-width: 150px;
+    float: right;
+    background-color: burlywood;
+    border: #777 solid 1px;
+    display: flex;
+    flex-direction: column;
+    grid-area: aside;
+    text-align: center;
+    height: fit-content;
+    margin-left: 20px;     
+}
+.aside h1{
+    margin: 0;
+}
+.aside content{
+    flex: 1;
+}
 
 footer{
     text-align: center;
